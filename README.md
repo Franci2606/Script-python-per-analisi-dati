@@ -1,4 +1,4 @@
-# Analisi del questionario per l'applicazione MANILA
+# Analisi dati del questionario per l'applicazione MANILA
  
 Dashboard interattiva (Streamlit) e script Python per analizzare le risposte al questionario di valutazione di
 **MANILA**, l'applicazione low-code per il benchmarking della fairness nel machine learning.
