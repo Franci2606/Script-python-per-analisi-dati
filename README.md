@@ -74,7 +74,6 @@ in queste parti.
 ### 1. Importazioni e impostazioni iniziali
 - Importa Streamlit, pandas, matplotlib, le classi di `Utils/`, `get_config` da `config.py` e la mappatura da `mapping_config.py`.
 - Carica le variabili d'ambiente da un file `.env` (con `python-dotenv`), da cui leggere le chiavi API dei modelli linguistici.
-- Silenzia gli avvisi di Transformers e di Streamlit.
 ### 2. Funzioni di supporto
 | Funzione | Cosa fa |
 |---|---|
@@ -93,8 +92,7 @@ i dati caricati, l'analisi tematica e le tabelle di priorità.
 ### 4. Barra laterale (sidebar)
 - **Lingua:** scelta tra italiano e inglese.
 - **Caricamento dati:** pulsante per caricare un file CSV o Excel (`.csv`, `.xlsx`, `.xls`).
-- **Report:** pulsante "Genera Report HTML", disattivato finché non è stata eseguita l'analisi tematica, e collegamento per scaricare
-  il report generato.
+- **Report:** pulsante "Genera Report HTML", disattivato finché non è stata eseguita l'analisi tematica, e collegamento per scaricare il report generato.
 ### 5. Corpo della pagina
 Dopo il caricamento del file compaiono quattro schede con i numeri riassuntivi (totale risposte, numero di domande Likert,
 numero di domande aperte, percentuale di completamento) e sei schede (tab):
